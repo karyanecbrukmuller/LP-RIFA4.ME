@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;600&display=swap');
 
+html, body{
+    margin: 0;
+    padding: 0;
+} 
+
 header .logo-menu .flex-container .flex-item.left{
     width: 35%;
     padding: 0px 0px 0px 160px;
@@ -23,9 +28,14 @@ header .flex-container{
 header .logo-menu .flex-container .flex-item.right{
     text-align: left;
 	margin: 5px 0px;
-    padding: 0px 160px 0px 0px;
 	width: 65%;   
     font-size: 14px;
+}
+
+header .logo-menu .flex-container .flex-item.right nav{
+    background: none;
+    box-shadow: none;
+    line-height: 45px;
 }
 
 header .logo-menu .flex-container .flex-item.right .links{
@@ -48,25 +58,148 @@ header .logo-menu .flex-container .flex-item.right .links a{
 
 header .logo-menu .flex-container .flex-item.right .links li a.borda{
     border: 2px solid red;
-    padding: 8px 25px;
     border-radius: 50px;
 }
 
-main .flex-container{
+main .principal{
+    min-height: 700px;
+    background: url("../images/bg-intro.svg") transparent 0 95% no-repeat;
+}
+
+main .principal .flex-container{
 	display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    align-items: flex-start;
 }
 
 main .principal .website-description .flex-container .flex-item.left{
     width: 50%;
+    padding-top: 110px;
 }    
+
+main .principal .website-description .flex-container .flex-item.left .titulo-principal-botoes{
+    padding-left: 170px;
+
+}
+
+main .principal .website-description .flex-container .flex-item.left h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #1F1F1F;
+    font-size: 30px;
+}    
+
+main .principal .website-description .flex-container .flex-item.left .subtitulo{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #676767;
+    
+}
+
+main .principal .website-description .flex-container .flex-item.left .botoes{
+    margin-top: 170px;
+}
+
 
 main .principal .website-description .flex-container .flex-item.right{
     width: 50%;
+    padding-top: 60px;
 }    
 
 main .principal .website-description .flex-container .flex-item.right img{
-    width: 1000px;
+    width: 70%;
+    margin-left: 150px;
+}
+
+main .principal .website-description .flex-container .flex-item.left .titulo-principal-botoes .botoes{
+    margin-top: 110px;
+}
+
+main .principal .website-description .flex-container .flex-item.left .titulo-principal-botoes .botoes button{
+    padding: 15px 50px;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #30c742;
+    border: #000000;
+}
+
+main .features{
+    min-height: 500px;
+}
+
+main .features .description .flex-container{
+    text-align: center;
+    width: 100%;
+}
+
+main .features .description .flex-container .tittle{
+    padding: 80px 0 10px;
+    font-size: 20px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    color: rgb(31, 31, 31);
+}
+
+main .features .description .flex-container .sub-tittle{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;   
+    font-size: 16px;
+    color: #676767;
+}
+
+.flexcontainer-features{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 4em 1em;    
+}
+
+.flexcontainer-features div{
+    width: 280px;
+    position: relative;
+    font-size: 16px; 
+    text-align: center;
+    margin-right: 30px;
+    padding: 30px;
+}
+
+.flexcontainer-features div .title{
+    font-size: 24px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+}
+
+.flexcontainer-features div .description{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;   
+    color: #676767;
+    font-size: 15px;
+}
+
+.flexcontainer-features .destaque{
+    box-shadow: 0 0 2em rgb(0 0 0 / 14%);
+}
+
+.flexcontainer-features .material-icons{
+    display: block;
+    margin: 0 auto 10px;
+    font-size: 75px;
+}
+
+.flexcontainer-features .destaque .material-icons{
+    color: #bf0811;
+}
+
+.flexcontainer-features .destaque .title{
+    color: #bf0811;
+    font-size: 24px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
 }

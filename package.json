@@ -1,0 +1,22 @@
+{
+  "name": "lp-rifa4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karyanecbrukmuller/LP-RIFA4.ME.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karyanecbrukmuller/LP-RIFA4.ME/issues"
+  },
+  "homepage": "https://github.com/karyanecbrukmuller/LP-RIFA4.ME#readme",
+  "dependencies": {
+    "materialize-css": "^1.0.0"
+  }
+}
