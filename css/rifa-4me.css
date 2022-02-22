@@ -87,7 +87,8 @@ main .principal .website-description .flex-container .flex-item.left .titulo-pri
 main .principal .website-description .flex-container .flex-item.left h1{
     font-family: 'Montserrat', sans-serif;
     color: #1F1F1F;
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 500;
 }    
 
 main .principal .website-description .flex-container .flex-item.left .subtitulo{
@@ -114,7 +115,7 @@ main .principal .website-description .flex-container .flex-item.right img{
 }
 
 main .principal .website-description .flex-container .flex-item.left .titulo-principal-botoes .botoes{
-    margin-top: 110px;
+    margin-top: 160px;
 }
 
 main .principal .website-description .flex-container .flex-item.left .titulo-principal-botoes .botoes button{
@@ -137,11 +138,14 @@ main .features .description .flex-container{
 }
 
 main .features .description .flex-container .tittle{
-    padding: 80px 0 10px;
-    font-size: 20px;
+    padding: 100px 0 10px;   
+}
+
+main .features .description .flex-container .tittle h2{
+    font-size: 40px;
     font-family: 'Montserrat',sans-serif;
     font-weight: 500;
-    color: rgb(31, 31, 31);
+    color: #1F1F1F;
 }
 
 main .features .description .flex-container .sub-tittle{
@@ -151,29 +155,30 @@ main .features .description .flex-container .sub-tittle{
     color: #676767;
 }
 
-.flexcontainer-features{
+main .flexcontainer-features{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin: 4em 1em;    
+    margin: 70px 10px 90px 10px;    
 }
 
-.flexcontainer-features div{
-    width: 280px;
+main .flexcontainer-features div{
+    width: 20%;
+    border-radius: 10px;
     position: relative;
     font-size: 16px; 
     text-align: center;
-    margin-right: 30px;
-    padding: 30px;
+    margin-right: 15px;
+    padding: 40px 30px 40px 30px;
 }
 
-.flexcontainer-features div .title{
+main .flexcontainer-features div .title{
     font-size: 24px;
     font-family: 'Montserrat',sans-serif;
     font-weight: 500;
 }
 
-.flexcontainer-features div .description{
+main .flexcontainer-features div .description{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -183,23 +188,130 @@ main .features .description .flex-container .sub-tittle{
     font-size: 15px;
 }
 
-.flexcontainer-features .destaque{
-    box-shadow: 0 0 2em rgb(0 0 0 / 14%);
+main .flexcontainer-features .destaque{
+    box-shadow: rgb(0 0 0 / 10%) 0 3px 20px 0;
 }
 
-.flexcontainer-features .material-icons{
+main .flexcontainer-features .material-icons{
     display: block;
     margin: 0 auto 10px;
     font-size: 75px;
 }
 
-.flexcontainer-features .destaque .material-icons{
+main .flexcontainer-features .destaque .material-icons{
     color: #bf0811;
 }
 
-.flexcontainer-features .destaque .title{
+main .flexcontainer-features .destaque .title{
     color: #bf0811;
     font-size: 24px;
     font-family: 'Montserrat',sans-serif;
     font-weight: 500;
+}
+
+main .informacao-central{
+    background: rgb(221,35,91);
+    width: 100%;
+}
+
+main .informacao-central .flex-container{
+    text-align: center;
+    width: 100%;
+    padding: 70px 0 80px;    
+}
+
+main .informacao-central .flex-container .tittle{
+    padding: 10px 0;
+}
+
+main .informacao-central .flex-container .tittle h2{
+    font-size: 40px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+main .informacao-central .flex-container .sub-tittle{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #dddddd;
+    width: 60%;
+    margin: 0 auto;
+}
+
+main .informacao-central .flex-container .botoes{
+    margin-top: 50px;
+}
+
+main .informacao-central .flex-container .botoes button{
+    padding: 15px 50px;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #30c742;
+    border: #000000;
+}
+
+main .depoimentos-clientes{
+    width: 100%;    
+    text-align: center;
+    padding: 0px 0 100px; 
+}
+
+main .depoimentos-clientes .description .flex-container .tittle{
+    padding: 70px 0 50px;   
+}
+
+main .depoimentos-clientes .description .flex-container .tittle h2{
+    font-size: 40px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    color: #1F1F1F;
+}
+
+main .depoimentos-clientes .flexcontainer-depoimentos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal{
+    width: 60%;
+    position: relative;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 10%) 0 0 11px 0;
+    background-color: rgba(239,242,246,1);
+    border-radius: 10px;
+    padding: 40px 30px 40px 30px;
+    color: #000000;
+    font-style: italic;
+}
+
+main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .aspas{
+    font-size: 88px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    width: 100%;
+    height: 60px;
+}
+
+main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .aspas.left{    
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .aspas.right{
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .conteudo{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
 }
