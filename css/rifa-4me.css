@@ -284,7 +284,7 @@ main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal{
     box-shadow: rgb(0 0 0 / 10%) 0 0 11px 0;
     background-color: rgba(239,242,246,1);
     border-radius: 10px;
-    padding: 40px 30px 40px 30px;
+    padding: 30px 65px 30px 65px;
     color: #000000;
     font-style: italic;
 }
@@ -315,3 +315,61 @@ main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .con
     font-weight: 400;
     font-size: 16px;
 }
+
+main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cliente{
+    display: flex;
+    text-align: left;
+    width: 100%;
+}
+
+main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cliente img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cliente span{
+    margin-left: 25px;
+    font-style: normal;
+    color: #bf0811;
+    font-size: 17px;
+    font-weight: 500;
+    display: block;
+}
+
+main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cliente .rating{
+    width: 100px;
+    height: 30px;
+    text-indent: -999px;
+    background: url(../images/rating-stars.png) transparent top left no-repeat;
+}
+
+main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cliente .rating.five-stars{
+    background-position-x: -153px;
+    background-position-y: -246px;
+}
+
+main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cliente .rating.four-stars{
+    background-position-x: -153px;
+    background-position-y: -202px;
+}
+
+main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cliente .rating.three-stars{
+    background-position-x: -153px;
+    background-position-y: -156px;
+}
+
+main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cliente .rating.two-stars{
+    background-position-x: -153px;
+    background-position-y: -113px;
+}
+
+main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cliente .rating.one-star{
+    background-position-x: -153px;
+    background-position-y: -69px;
+}
+
+
+
+
+
