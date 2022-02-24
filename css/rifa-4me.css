@@ -27,7 +27,7 @@ header .flex-container{
 
 header .logo-menu .flex-container .flex-item.right{
     text-align: left;
-	margin: 5px 0px;
+	margin: 8px 0px;
 	width: 65%;   
     font-size: 14px;
 }
@@ -329,7 +329,7 @@ main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cli
 }
 
 main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cliente span{
-    margin-left: 25px;
+    margin: 5px 0px 0px 25px;
     font-style: normal;
     color: #bf0811;
     font-size: 17px;
@@ -341,7 +341,7 @@ main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cli
     width: 100px;
     height: 30px;
     text-indent: -999px;
-    background: url(../images/rating-stars.png) transparent top left no-repeat;
+    background: url(../images/rating-stars-trasparente.png) transparent top left no-repeat;
 }
 
 main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cliente .rating.five-stars{
@@ -369,7 +369,9 @@ main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cli
     background-position-y: -69px;
 }
 
-
-
+footer{
+    min-height: 150px;
+    background: rgb(0, 0, 0);
+}
 
 
