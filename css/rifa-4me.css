@@ -370,8 +370,85 @@ main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cli
 }
 
 footer{
-    min-height: 150px;
-    background: rgb(0, 0, 0);
+    background: #222 url(../images/background-footer.png) repeat 0 0;
+    padding: 30px 170px 10px 170px;
+    font-family: "Montserrat",Arial,sans-serif;
 }
+
+footer .flexcontainer-footer{
+    width: 100%;
+    flex-direction: row;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 15px;
+}
+
+footer .flexcontainer-footer .primeiro-bloco{
+    width: 33.333333%;
+    position: relative;
+    font-size: 16px;
+    padding right: 15px;
+    min-height: 1px;
+}
+
+footer .flexcontainer-footer .primeiro-bloco .footer-logo img{
+    width: 157px;
+    color: #cccccc;
+    padding-top: 10px;
+}
+
+footer .flexcontainer-footer .segundo-bloco{
+    width: 33.333333%;
+    font-size: 16px;
+    text-align: left;
+    min-height: 1px;
+}
+
+footer .flexcontainer-footer .segundo-bloco h3{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+footer .flexcontainer-footer .segundo-bloco ul li{
+    text-decoration: none;
+    color: #747c81;
+    font-size: 12px;
+    padding-top: 1.5px;
+}
+
+footer .flexcontainer-footer .segundo-bloco ul li a{
+    color: #747c81;
+}
+
+footer .flexcontainer-footer .terceiro-bloco{
+    width: 33.333333%;
+    position: relative;
+    font-size: 16px;
+    min-height: 1px;
+}
+
+footer .flexcontainer-social .quarto-bloco{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    height: 60px;
+    display: block;
+    border-top: 0.5px solid #464646bd;
+}
+
+footer .flexcontainer-social .quarto-bloco p{
+    font-size: 12px;
+    color: #8c8c8c;
+}
+
+footer .flexcontainer-social .quarto-bloco p a{
+    color: #ffffff;
+}
+
+
 
 
