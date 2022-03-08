@@ -5,29 +5,49 @@ html, body{
     padding: 0;
 } 
 
+.whatsapp-link{
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 35px;
+    right: 35px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgb(77, 77, 77);
+    z-index: 1000;
+}
+
+header .logo-menu{
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    background-color: #ffffff;
+    height: 80px;
+}
+
+header .logo-menu .flex-container{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 header .logo-menu .flex-container .flex-item.left{
     width: 35%;
     padding: 0px 0px 0px 160px;
-}
-
-header .logo-menu .flex-container .flex-item.left a img{
-    width: 157px;
+    margin-top: 15px;
 }
 
 a{
 	text-decoration: none;
 }
 
-header .flex-container{
-	display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+header .logo-menu .flex-container .flex-item.left a img{
+    width: 157px;
 }
 
 header .logo-menu .flex-container .flex-item.right{
     text-align: left;
-	margin: 8px 0px;
+	margin: 15px 0px;
 	width: 65%;   
     font-size: 14px;
 }
@@ -36,6 +56,7 @@ header .logo-menu .flex-container .flex-item.right nav{
     background: none;
     box-shadow: none;
     line-height: 45px;
+    padding-left: 250px;
 }
 
 header .logo-menu .flex-container .flex-item.right .links{
@@ -76,7 +97,7 @@ main .principal .flex-container{
 
 main .principal .website-description .flex-container .flex-item.left{
     width: 50%;
-    padding-top: 110px;
+    padding-top: 140px;
 }    
 
 main .principal .website-description .flex-container .flex-item.left .titulo-principal-botoes{
@@ -100,18 +121,19 @@ main .principal .website-description .flex-container .flex-item.left .subtitulo{
 }
 
 main .principal .website-description .flex-container .flex-item.left .botoes{
-    margin-top: 170px;
+    margin-top: 100px;
 }
 
 
 main .principal .website-description .flex-container .flex-item.right{
     width: 50%;
-    padding-top: 60px;
+    padding-top: 90px;
 }    
 
 main .principal .website-description .flex-container .flex-item.right img{
     width: 70%;
     margin-left: 150px;
+    margin-top: 20px;
 }
 
 main .principal .website-description .flex-container .flex-item.left .titulo-principal-botoes .botoes{
@@ -124,7 +146,7 @@ main .principal .website-description .flex-container .flex-item.left .titulo-pri
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 16px;
-    background-color: #30c742;
+    background-color: #4dad58;
     border: #000000;
 }
 
@@ -138,7 +160,7 @@ main .features .description .flex-container{
 }
 
 main .features .description .flex-container .tittle{
-    padding: 100px 0 10px;   
+    padding-top: 75px;   
 }
 
 main .features .description .flex-container .tittle h2{
@@ -250,7 +272,7 @@ main .informacao-central .flex-container .botoes button{
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 16px;
-    background-color: #30c742;
+    background-color: #4dad58;
     border: #000000;
 }
 
@@ -377,16 +399,13 @@ footer{
 
 footer .flexcontainer-footer{
     width: 100%;
-    flex-direction: row;
     color: #ffffff;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     padding-bottom: 15px;
 }
 
 footer .flexcontainer-footer .primeiro-bloco{
-    width: 33.333333%;
+    width: 37%;
     position: relative;
     font-size: 16px;
     padding right: 15px;
@@ -400,7 +419,7 @@ footer .flexcontainer-footer .primeiro-bloco .footer-logo img{
 }
 
 footer .flexcontainer-footer .segundo-bloco{
-    width: 33.333333%;
+    width: 37%;
     font-size: 16px;
     text-align: left;
     min-height: 1px;
@@ -424,10 +443,16 @@ footer .flexcontainer-footer .segundo-bloco ul li a{
 }
 
 footer .flexcontainer-footer .terceiro-bloco{
-    width: 33.333333%;
-    position: relative;
+    width: 26%;
     font-size: 16px;
     min-height: 1px;
+    padding-top: 15px;
+}
+
+footer .flexcontainer-footer .terceiro-bloco img{
+    height: 35px;
+    width: 25px;
+    margin: 0 25px 0 0;
 }
 
 footer .flexcontainer-social .quarto-bloco{

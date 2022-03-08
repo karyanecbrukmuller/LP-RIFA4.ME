@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="css/rifa-4me.css">
 </head>
 <body>
+    <a class="whatsapp-link href" href="https://web.whatsapp.com/send?phone=55995123739"> 
+        <img src="images/icon-whatsapp.svg" alt="botao do whatsapp">
+    </a>
     <header>
         <div class="logo-menu">
 			<div class="flex-container">		
@@ -23,19 +26,19 @@
                     <nav> 
                         <ul class="links">    
                            <li>
-                               <a href="#">Produtos</a>
+                               <a id="menu-home" href="#">Home</a>
                             </li>
                             <li>
-                                <a href="#">Planos e Funcionalidades</a>
+                                <a id="menu-features" href="#">Features</a>
                             </li>
                             <li>
-                                <a href="#">Trabalhe conosco</a>
+                                <a id="menu-saiba-mais" href="#">Saiba Mais</a>
                             </li>     
                             <li>
-                                <a href="#">Integrações</a> 
+                                <a id="menu-depoimentos" href="#">Depoimentos</a> 
                             </li>
                             <li>
-                                <a class="borda" href="#">Fale com especialista</a>
+                                <a class="borda" href="#">Fale conosco</a>
                             </li>
                             <li>
                                 <a href="#">Login</a> 
@@ -47,7 +50,7 @@
         </div>    
     </header>
     <main>
-        <section class="principal">
+        <section id="section-home" class="principal">
             <div class="website-description">
                 <div class="flex-container">
                     <div class="flex-item left">
@@ -71,7 +74,7 @@
                 </div>  
             </div>
         </section>
-        <section class="features">
+        <section id="section-features" class="features">
             <div class="description">
                 <div class="flex-container">
                     <div class="tittle">
@@ -105,7 +108,7 @@
                 </div>      
             </div>
         </section>
-        <section class="informacao-central">
+        <section id="section-saiba-mais" class="informacao-central">
                 <div class="flex-container">
                     <div class="tittle">
                         <h2>Translation by hackham belief?</h2>
@@ -120,7 +123,7 @@
                     </p>
                 </div>                
         </section>
-        <section class="depoimentos-clientes">
+        <section id="section-depoimentos-clientes" class="depoimentos-clientes">
             <div class="description">
                 <div class="flex-container">
                     <div class="tittle">
@@ -173,7 +176,21 @@
                 </ul>
             </div>
             <div class="terceiro-bloco">
-
+                <a href="https://www.facebook.com/Rifa4.me" class="link-facebook">
+                    <img src="images/icon-facebook.svg" alt="icone do facebook">
+                </a>
+                <a href="https://www.instagram.com/rifa4.me/" class="link-instagram">
+                    <img src="images/icon-instagram.svg" alt="icone do instagram">
+                </a>
+                <a href="" class="link-youtube">
+                    <img src="images/icon-youtube.svg" alt="icone do youtube">
+                </a>
+                <a href="" class="link-linkedin">
+                    <img src="images/icon-linkedin.svg" alt="icone do linkedin">
+                </a>
+                <a href="" class="link-twitter">
+                    <img src="images/icon-twitter.svg" alt="icone do twitter">
+                </a>
             </div>
         </div>    
         <div class="flexcontainer-social">
@@ -185,6 +202,8 @@
         </div>
     </footer>
     <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
