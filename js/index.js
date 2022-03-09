@@ -19,7 +19,7 @@ $(document).ready(function(){
 
     $( "#menu-depoimentos" ).click(function(){
         var eltop = $( "#section-depoimentos-clientes" ).offset().top;
-        eltop = eltop - 80;
+        eltop = eltop - 170;
         $('html, body').animate({ scrollTop: eltop}, 1000);
     });
 });         
