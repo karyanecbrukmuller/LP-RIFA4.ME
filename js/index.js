@@ -22,4 +22,20 @@ $(document).ready(function(){
         eltop = eltop - 170;
         $('html, body').animate({ scrollTop: eltop}, 1000);
     });
+
+    $( "#menu-duvidas" ).click(function(){
+        var eltop = $( "#section-duvidas-frequentes" ).offset().top;
+        eltop = eltop - 170;
+        $('html, body').animate({ scrollTop: eltop}, 1000);
+    });
 });         
+
+var elem = document.querySelector('.flex-item-left .collapsible.popout');
+var instance = M.Collapsible.init(elem, {
+  accordion: false
+});
+
+var elem = document.querySelector('.flex-item-right .collapsible.popout');
+var instance = M.Collapsible.init(elem, {
+  accordion: false
+});
