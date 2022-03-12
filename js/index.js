@@ -1,9 +1,9 @@
 $(document).ready(function(){
+
     $( "#menu-home" ).click(function(){
         var eltop = $( "#section-home" ).offset().top;
         $('html, body').animate({ scrollTop: eltop}, 1000);
     });
-
 
     $( "#menu-features" ).click(function(){
         var eltop = $( "#section-features" ).offset().top;
@@ -28,14 +28,8 @@ $(document).ready(function(){
         eltop = eltop - 170;
         $('html, body').animate({ scrollTop: eltop}, 1000);
     });
-});         
 
-var elem = document.querySelector('.flex-item-left .collapsible.popout');
-var instance = M.Collapsible.init(elem, {
-  accordion: false
-});
+    // Invocando o componente de collapsible
+    $('.collapsible.expandable').collapsible();
 
-var elem = document.querySelector('.flex-item-right .collapsible.popout');
-var instance = M.Collapsible.init(elem, {
-  accordion: false
 });

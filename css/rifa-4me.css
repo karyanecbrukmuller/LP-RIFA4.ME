@@ -107,6 +107,7 @@ main .principal .website-description .flex-container .flex-item.left .titulo-pri
 
 main .principal .website-description .flex-container .flex-item.left .call-to-action{
     padding-left: 170px;
+    padding-top: 50px;
 }
 
 main .principal .website-description .flex-container .flex-item.left h1{
@@ -135,11 +136,8 @@ main .principal .website-description .flex-container .flex-item.right img{
     margin-top: 50px;
 }
 
-main .principal .website-description .flex-container .flex-item.left .botoes{
+main .principal .website-description .flex-container .flex-item.left a.btn-call-to-act{
     margin-top: 30px;
-}
-
-main .principal .website-description .flex-container .flex-item.left  .botoes button{
     padding: 15px 50px;
     border-radius: 50px;
     font-family: 'Montserrat', sans-serif;
@@ -265,7 +263,7 @@ main .informacao-central .flex-container .botoes{
     margin-top: 50px;
 }
 
-main .informacao-central .flex-container .botoes button{
+main .informacao-central .flex-container .botoes .btn-call-to-act{
     padding: 15px 50px;
     border-radius: 50px;
     font-family: 'Montserrat', sans-serif;
@@ -415,7 +413,6 @@ main .duvidas-frequentes .title h2{
 main .duvidas-frequentes .flex-container{
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-evenly;
     padding-top: 40px;
     padding-bottom: 80px;
