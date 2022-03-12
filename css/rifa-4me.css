@@ -83,7 +83,7 @@ header .logo-menu .flex-container .flex-item.right .links li a.borda{
 }
 
 main .principal{
-    min-height: 700px;
+    min-height: 755px;
     background: url("../images/bg-intro.svg") transparent 0 95% no-repeat;
 }
 
@@ -97,12 +97,16 @@ main .principal .flex-container{
 
 main .principal .website-description .flex-container .flex-item.left{
     width: 50%;
-    padding-top: 140px;
+    padding-top: 100px;
 }    
 
 main .principal .website-description .flex-container .flex-item.left .titulo-principal-botoes{
     padding-left: 170px;
+    min-height: 360px;
+}
 
+main .principal .website-description .flex-container .flex-item.left .call-to-action{
+    padding-left: 170px;
 }
 
 main .principal .website-description .flex-container .flex-item.left h1{
@@ -120,11 +124,6 @@ main .principal .website-description .flex-container .flex-item.left .subtitulo{
     
 }
 
-main .principal .website-description .flex-container .flex-item.left .botoes{
-    margin-top: 100px;
-}
-
-
 main .principal .website-description .flex-container .flex-item.right{
     width: 50%;
     padding-top: 90px;
@@ -133,14 +132,14 @@ main .principal .website-description .flex-container .flex-item.right{
 main .principal .website-description .flex-container .flex-item.right img{
     width: 70%;
     margin-left: 150px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
-main .principal .website-description .flex-container .flex-item.left .titulo-principal-botoes .botoes{
-    margin-top: 160px;
+main .principal .website-description .flex-container .flex-item.left .botoes{
+    margin-top: 30px;
 }
 
-main .principal .website-description .flex-container .flex-item.left .titulo-principal-botoes .botoes button{
+main .principal .website-description .flex-container .flex-item.left  .botoes button{
     padding: 15px 50px;
     border-radius: 50px;
     font-family: 'Montserrat', sans-serif;
