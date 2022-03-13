@@ -13,13 +13,13 @@ $(document).ready(function(){
 
     $( "#menu-saiba-mais" ).click(function(){
         var eltop = $( "#section-saiba-mais" ).offset().top;
-        eltop = eltop - 210;
+        eltop = eltop - 230;
         $('html, body').animate({ scrollTop: eltop}, 1000);
     });
 
     $( "#menu-depoimentos" ).click(function(){
         var eltop = $( "#section-depoimentos-clientes" ).offset().top;
-        eltop = eltop - 170;
+        eltop = eltop - 90;
         $('html, body').animate({ scrollTop: eltop}, 1000);
     });
 
@@ -32,4 +32,9 @@ $(document).ready(function(){
     // Invocando o componente de collapsible
     $('.collapsible.expandable').collapsible();
 
+    $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators: true
+    });
+    
 });

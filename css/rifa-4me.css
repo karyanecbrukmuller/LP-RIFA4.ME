@@ -273,30 +273,54 @@ main .informacao-central .flex-container .botoes .btn-call-to-act{
     border: #000000;
 }
 
-main .depoimentos-clientes{
+main .carousel.carousel-slider.center{
+    height: none;
+    min-height: 600px;
+    background-color: #fff;
     width: 100%;    
     text-align: center;
     padding: 0px 0 100px; 
 }
 
-main .depoimentos-clientes .description .flex-container .tittle{
+main .red{
+    background-color: #fff !important;
+}
+
+main .amber{
+    background-color: #fff !important;
+}
+
+main .green{
+    background-color: #fff !important;
+}
+
+main .blue{
+    background-color: #fff !important;
+}
+
+main .flex-container-tittle{
+    width: 100%;    
+    text-align: center;
+}
+
+main .description .flex-container-tittle .tittle{
     padding: 70px 0 50px;   
 }
 
-main .depoimentos-clientes .description .flex-container .tittle h2{
+main .description .flex-container-tittle .tittle h2{
     font-size: 40px;
     font-family: 'Montserrat',sans-serif;
     font-weight: 500;
     color: #1F1F1F;
 }
 
-main .depoimentos-clientes .flexcontainer-depoimentos{
+main .carousel.carousel-slider.center .flexcontainer-depoimentos{
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
 
-main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal{
+main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal{
     width: 25%;
     border-radius: 10px;
     position: relative;
@@ -309,13 +333,13 @@ main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal{
     background-color: rgba(239,242,246,1);
 }
 
-main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .comentario{
+main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .comentario{
     height: 300px;
     overflow: hidden;
     padding-top: 30px;
 }
 
-main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .aspas{
+main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .aspas{
     font-size: 50px;
     font-weight: 800;
     font-family: 'Courier New', Courier, monospace;
@@ -325,16 +349,16 @@ main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .asp
     color: #000000;
 }
 
-main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .aspas.left{    
+main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .aspas.left{    
     text-align: left;
 }
 
-main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .aspas.right{
+main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .aspas.right{
     text-align: right;
     margin-bottom: 15px;
 }
 
-main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .conteudo{
+main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .conteudo{
     margin-left: auto;
     margin-right: auto;
     font-family: 'Montserrat',sans-serif;
@@ -342,20 +366,20 @@ main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .con
     font-size: 16px;
 }
 
-main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cliente{
+main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .cliente{
     display: flex;
     text-align: left;
     width: 100%;
     padding-top: 30px;
 }
 
-main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cliente img{
+main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .cliente img{
     width: 70px;
     height: 70px;
     border-radius: 50%;
 }
 
-main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cliente span{
+main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .cliente span{
     margin: 5px 0px 0px 25px;
     font-style: normal;
     color: #000000;
@@ -364,36 +388,46 @@ main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cli
     display: block;
 }
 
-main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cliente .rating{
+main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .cliente .rating{
     width: 100px;
     height: 30px;
     text-indent: -999px;
     background: url(../images/rating-stars-trasparente.png) transparent top left no-repeat;
 }
 
-main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cliente .rating.five-stars{
+main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .cliente .rating.five-stars{
     background-position-x: -153px;
     background-position-y: -246px;
 }
 
-main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cliente .rating.four-stars{
+main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .cliente .rating.four-stars{
     background-position-x: -153px;
     background-position-y: -202px;
 }
 
-main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cliente .rating.three-stars{
+main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .cliente .rating.three-stars{
     background-position-x: -153px;
     background-position-y: -156px;
 }
 
-main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cliente .rating.two-stars{
+main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .cliente .rating.two-stars{
     background-position-x: -153px;
     background-position-y: -113px;
 }
 
-main .depoimentos-clientes .flexcontainer-depoimentos .depoimento-principal .cliente .rating.one-star{
+main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .cliente .rating.one-star{
     background-position-x: -153px;
     background-position-y: -69px;
+}
+
+main .carousel .indicators .indicator-item.active{
+    background-color: #000000;
+}
+
+main .carousel .indicators .indicator-item {
+    background-color: rgb(0 0 0 / 40%);
+    width: 12px;
+    height: 12px;
 }
 
 main .duvidas-frequentes{
@@ -403,7 +437,7 @@ main .duvidas-frequentes{
 
 main .duvidas-frequentes .title h2{
     text-align: center;
-    padding-top: 80px;
+    padding-top: 90px;
     font-size: 40px;
     font-family: 'Montserrat',sans-serif;
     font-weight: 500;
