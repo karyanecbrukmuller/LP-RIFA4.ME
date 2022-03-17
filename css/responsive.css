@@ -1,15 +1,79 @@
 @media only screen
 and (min-device-width : 360px)
 and (max-device-width : 667px) {
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .desk-menu {
+        display: none;
+    }
+
+    header .logo-menu .flex-container .flex-item.left {
+        padding: 0px;
+    }
+
     header .logo-menu .flex-container .flex-item.right .links{
         position: absolute;
-    }    
+    }
 
+    main .principal .flex-container{
+        flex-flow: wrap;
+    }
 
-    
+    main .principal .website-description .flex-container .flex-item {
+        width: 100% !important;
+    }
 
+    main .principal .website-description .flex-container .flex-item.left .titulo-principal-botoes {
+        padding-left: 0px;
+    }
 
+    main .principal .website-description .flex-container .flex-item.left .call-to-action {
+        padding-left: 0px;
+    }
 
+    main .principal .website-description .flex-container .flex-item.right img {
+        margin-left: 0px;
+    }
 
+    main .flexcontainer-features {
+        flex-flow: wrap;
+    }
+
+    main .flexcontainer-features div {
+        width: 100%;
+    }
+
+    main .duvidas-frequentes .flex-container {
+        flex-flow: wrap;
+    }
+
+    main .duvidas-frequentes .flex-container .flex-item-left {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    main .duvidas-frequentes .flex-container .flex-item-right {
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    footer .flexcontainer-footer {
+        flex-flow: wrap;
+    }
+
+    footer .flexcontainer-footer .segundo-bloco,
+    footer .flexcontainer-footer .terceiro-bloco,
+    footer .flexcontainer-footer .primeiro-bloco {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    footer {
+        padding: 0
+    }
 
 }
