@@ -7,8 +7,8 @@ html, body{
 
 .whatsapp-link{
     position: fixed;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     bottom: 35px;
     right: 35px;
     background-color: #ffffff;
@@ -30,6 +30,29 @@ header .logo-menu .flex-container{
     flex-direction: row;
     justify-content: space-around;
 }
+
+header .logo-menu .flex-container .mobile-menu{
+    display: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+header .logo-menu .flex-container .mobile-menu div{
+    width: 32px;
+    height: 1.5px;
+    margin: 8px;
+    background-color: #bf0811;
+}
+
+header .logo-menu .flex-container .mobile-menu .line-2{
+    height: 2.5px;
+}
+
+header .logo-menu .flex-container .mobile-menu .line-3{
+    height: 3px;
+}
+
+
 
 header .logo-menu .flex-container .flex-item.left{
     width: 35%;

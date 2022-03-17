@@ -1,0 +1,15 @@
+@media only screen
+and (min-device-width : 360px)
+and (max-device-width : 667px) {
+    header .logo-menu .flex-container .flex-item.right .links{
+        position: absolute;
+    }    
+
+
+    
+
+
+
+
+
+}
