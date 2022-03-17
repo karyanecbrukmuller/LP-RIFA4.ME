@@ -14,28 +14,59 @@ and (max-device-width : 667px) {
         padding: 0px;
     }
 
+    main .principal .website-description .flex-container .flex-item.left h1{
+        font-size: 26px;
+        text-align: center;
+    }
+
+    main .principal .website-description .flex-container .flex-item.left .subtitulo{
+        text-align: center;
+        line-height: 1.5;
+    }
+
     header .logo-menu .flex-container .flex-item.right .links{
         position: absolute;
+    }
+
+    main .principal{
+        background-position-x: 50%;
+        background-position-y: 480px;
+        background-size: 570%;
     }
 
     main .principal .flex-container{
         flex-flow: wrap;
     }
 
-    main .principal .website-description .flex-container .flex-item {
+    main .principal .website-description .flex-container .flex-item{
         width: 100% !important;
     }
 
-    main .principal .website-description .flex-container .flex-item.left .titulo-principal-botoes {
+    main .principal .website-description .flex-container .flex-item.left .titulo-principal-botoes{
+        padding-left: 20px;
+        padding-right: 20px;
+        min-height: 0px;
+    }
+
+    main .principal .website-description .flex-container .flex-item.left .call-to-action{
+        text-align: center;
         padding-left: 0px;
     }
 
-    main .principal .website-description .flex-container .flex-item.left .call-to-action {
-        padding-left: 0px;
+    main .principal .website-description .flex-container .flex-item.left a.btn-call-to-act {
+        padding: 18px 55px;
     }
 
-    main .principal .website-description .flex-container .flex-item.right img {
+    main .principal .website-description .flex-container .flex-item.right{
         margin-left: 0px;
+        width: 90%;
+        text-align: center;
+    }
+
+    main .principal .website-description .flex-container .flex-item.right img{
+        margin-left: 0px;
+        margin-top: 120px;
+        width: 90%;
     }
 
     main .flexcontainer-features {
