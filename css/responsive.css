@@ -15,8 +15,9 @@ and (max-device-width : 667px) {
         display: none;
     }
 
-    header .logo-menu .flex-container .flex-item.left {
-        padding: 0px;
+    header .logo-menu .flex-container .flex-item.left{
+        padding: 0 0 0 10px;
+        width: 100%;
     }
 
     main .principal .website-description .flex-container .flex-item.left h1{
@@ -45,6 +46,10 @@ and (max-device-width : 667px) {
 
     main .principal .website-description .flex-container .flex-item{
         width: 100% !important;
+    }
+
+    main .principal .website-description .flex-container .flex-item.left{
+        padding-top: 80px;
     }
 
     main .principal .website-description .flex-container .flex-item.left .titulo-principal-botoes{
@@ -112,7 +117,7 @@ and (max-device-width : 667px) {
     }
 
     main .informacao-central{
-        padding: 0 20px 0 20px;
+        padding: 0 25px 0 25px;
     }
 
     main .informacao-central .flex-container{
@@ -124,7 +129,7 @@ and (max-device-width : 667px) {
     }
 
     main .informacao-central .flex-container .sub-tittle{
-
+        width: 100%;
     }
 
     main .informacao-central .flex-container .botoes .btn-call-to-act{
@@ -186,6 +191,10 @@ and (max-device-width : 667px) {
         width: 100%;
         padding: 0px;
         margin: 0px;
+    }
+
+    footer .flexcontainer-social .quarto-bloco p a{
+        line-height: 2.0;
     }
 
     footer {
