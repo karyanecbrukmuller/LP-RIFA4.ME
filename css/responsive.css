@@ -2,6 +2,11 @@
 and (min-device-width : 360px)
 and (max-device-width : 667px) {
 
+    .whatsapp-link{
+        width: 50px;
+        height: 50px;
+    }
+
     .mobile-menu {
         display: block;
     }
@@ -30,7 +35,7 @@ and (max-device-width : 667px) {
 
     main .principal{
         background-position-x: 50%;
-        background-position-y: 480px;
+        background-position-y: 520px;
         background-size: 570%;
     }
 
@@ -51,6 +56,7 @@ and (max-device-width : 667px) {
     main .principal .website-description .flex-container .flex-item.left .call-to-action{
         text-align: center;
         padding-left: 0px;
+        padding-top: 130px;
     }
 
     main .principal .website-description .flex-container .flex-item.left a.btn-call-to-act {
@@ -61,50 +67,129 @@ and (max-device-width : 667px) {
         margin-left: 0px;
         width: 90%;
         text-align: center;
+        padding-top: 70px;
     }
 
     main .principal .website-description .flex-container .flex-item.right img{
         margin-left: 0px;
-        margin-top: 120px;
+        margin-top: 100px;
         width: 90%;
     }
 
-    main .flexcontainer-features {
-        flex-flow: wrap;
+    main .features .description .flex-container{
+        padding: 0 20px 0 20px;
     }
 
-    main .flexcontainer-features div {
+    main .features .description .flex-container .tittle{
+        padding-top: 35px;
+    }
+
+    main .features .description .flex-container .tittle h2{
+        font-size: 26px;
+        text-align: center;
+    }
+
+    main .flexcontainer-features{
+        flex-flow: wrap;
+        margin: 50px 15px 50px 15px;
+    }
+
+    main .flexcontainer-features div{
         width: 100%;
+        margin-right: 0px;
     }
 
-    main .duvidas-frequentes .flex-container {
+    main .flexcontainer-features .destaque{
+        margin-bottom: 10px;
+    }
+
+    main .flexcontainer-features .material-icons{
+        font-size: 65px;
+    }
+    
+    main .flexcontainer-features .destaque .title{
+        font-size: 20px;
+    }
+
+    main .informacao-central{
+        padding: 0 20px 0 20px;
+    }
+
+    main .informacao-central .flex-container{
+        padding: 25px 0 80px;
+    }
+
+    main .informacao-central .flex-container .tittle h2{
+        font-size: 26px;
+    }
+
+    main .informacao-central .flex-container .sub-tittle{
+
+    }
+
+    main .informacao-central .flex-container .botoes .btn-call-to-act{
+        padding: 18px 55px;
+    }
+
+    main .description .flex-container-tittle .tittle{
+        padding: 30px 20px 30px 20px;
+    }
+
+    main .description .flex-container-tittle .tittle h2{
+        font-size: 26px;
+    }
+
+    main .duvidas-frequentes{
+        padding: 0 15px;
+    }
+
+    main .duvidas-frequentes .flex-container{
         flex-flow: wrap;
+        padding: 20px 0 50px 0;
+    }
+    
+    main .duvidas-frequentes .title h2{
+        padding-top: 60px;
+        font-size: 26px;
     }
 
-    main .duvidas-frequentes .flex-container .flex-item-left {
+    main .duvidas-frequentes .flex-container .flex-item-left{
         width: 100%;
         padding-left: 0px;
     }
 
-    main .duvidas-frequentes .flex-container .flex-item-right {
+    main .duvidas-frequentes .flex-container .flex-item-right{
         width: 100%;
         padding-right: 0px;
     }
 
-    footer .flexcontainer-footer {
+    .collapsible-header{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+    }
+
+    main .duvidas-frequentes .flex-container .collapsible-body span{
+        padding: 0;
+    }
+
+    footer .flexcontainer-footer{
         flex-flow: wrap;
+    }
+    
+    footer .flexcontainer-footer .segundo-bloco{
     }
 
     footer .flexcontainer-footer .segundo-bloco,
     footer .flexcontainer-footer .terceiro-bloco,
-    footer .flexcontainer-footer .primeiro-bloco {
+    footer .flexcontainer-footer .primeiro-bloco{
+        text-align: center;
         width: 100%;
         padding: 0px;
         margin: 0px;
     }
 
     footer {
-        padding: 0
+        padding: 30px 0 40px 0;
     }
 
 }
