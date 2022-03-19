@@ -303,6 +303,14 @@ main .informacao-central .flex-container .botoes .btn-call-to-act{
     border: #000000;
 }
 
+.depoimentos-clientes{
+    display: block;
+}
+
+.depoimentos-mobile{
+    display: none;
+}    
+
 main .carousel.carousel-slider.center{
     height: none;
     min-height: 600px;

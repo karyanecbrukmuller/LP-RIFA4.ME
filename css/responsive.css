@@ -6,12 +6,12 @@ and (max-device-width : 667px) {
         width: 50px;
         height: 50px;
     }
-
-    .mobile-menu {
+    
+    .depoimentos-mobile{
         display: block;
-    }
+    }    
 
-    .desk-menu {
+    .depoimentos-clientes{
         display: none;
     }
 
@@ -136,12 +136,79 @@ and (max-device-width : 667px) {
         padding: 18px 55px;
     }
 
-    main .description .flex-container-tittle .tittle{
-        padding: 30px 20px 30px 20px;
+    main .depoimentos-clientes{
+        display: none;
     }
 
-    main .description .flex-container-tittle .tittle h2{
+    main .carousel.carousel-slider.center{
+        min-height: 530px;
+    }
+
+    main .flex-container{
+        width: 100%;    
+        text-align: center;
+    }
+
+    main .description .flex-container .tittle{
+        padding: 30px 0 30px;   
+        margin: 0 20px;
+    }
+
+    main .description .flex-container .tittle h2{
         font-size: 26px;
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 500;
+        color: #1F1F1F
+    }
+
+    main .carousel.carousel-slider.center .flexcontainer-depoimentos{
+        height: 430px;
+    }
+
+    main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal{
+        width: 100%;
+        margin: 0 20px 0 20px;
+        padding: 0 30px;
+    }
+
+    main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .comentario{
+        height: 320px;
+        padding-top: 20px;
+        overflow: hidden;
+    }
+
+    main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .aspas{
+        font-size: 45px;
+    }
+
+    main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .aspas.right{
+        margin-top: 15px;
+    }
+
+    main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .conteudo{
+        font-size: 15px;
+    }
+
+    main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .cliente{
+        padding: 25px 0;
+    }
+
+    main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .cliente img{
+        width: 65px;
+        height: 65px;
+    }
+
+    main .carousel.carousel-slider.center .flexcontainer-depoimentos .depoimento-principal .cliente span{
+        font-size: 14px;
+    }
+
+    main .carousel.carousel-slider .carousel-item p{
+        margin: 0px;
+        padding-top: 5px;
+    }
+
+    main .carousel .indicators{
+        bottom: 10px;
     }
 
     main .duvidas-frequentes{
