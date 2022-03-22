@@ -19,7 +19,14 @@ $(document).ready(function(){
         $('html, body').animate({ scrollTop: eltop}, 1000);
     });
 
-    $( "#menu-depoimentos, #menu-depoimentos-mobile" ).click(function(){
+    $( "#menu-depoimentos" ).click(function(){
+        closeMenuMobile();
+        var eltop = $( "#section-depoimentos-clientes" ).offset().top;
+        eltop = eltop - 90;
+        $('html, body').animate({ scrollTop: eltop}, 1000);
+    });
+
+    $( "#menu-depoimentos-mobile" ).click(function(){
         closeMenuMobile();
         var eltop = $( "#section-depoimentos-mobile" ).offset().top;
         eltop = eltop - 90;
