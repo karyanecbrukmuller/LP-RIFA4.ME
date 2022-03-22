@@ -10,6 +10,8 @@
     <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsive-tablet.css">
+    
 </head>
 <body>
     <a class="whatsapp-link href" href="https://web.whatsapp.com/send?phone=55995123739"> 
@@ -23,11 +25,6 @@
                         <img src="images/logo.png" alt="Logo da Rifa4.me">
                     </a>
                 </div> 
-                <div class="mobile-menu">
-                    <div class="line-1"></div>
-                    <div class="line-2"></div>
-                    <div class="line-3"></div>
-                </div>
                 <div class="flex-item right desk-menu">
                     <nav>
                         <ul class="links">
@@ -51,8 +48,42 @@
                             </li>
                         </ul>
                     </nav>
+                    <div></div>
                 </div>
-            </div> 
+            </div>
+            <div class="mobile-menu-dropdown">
+                <div class="flex-item left">
+                    <a href="/"> 
+                        <img src="images/logo.png" alt="Logo da Rifa4.me">
+                    </a>
+                </div> 
+                <nav>
+                    <input type="checkbox" id="check">
+                    <label for="check" class="btn-mobile-menu">
+                        <i class="material-icons">menu</i>
+                    </label>
+                    <ul class="links">
+                       <li>
+                           <a id="menu-home-mobile" href="#">Home</a>
+                        </li>
+                        <li>
+                            <a id="menu-features-mobile" href="#">Features</a>
+                        </li>
+                        <li>
+                            <a id="menu-saiba-mais-mobile" href="#">Saiba Mais</a>
+                        </li>     
+                        <li>
+                            <a id="menu-depoimentos-mobile" href="#">Depoimentos</a> 
+                        </li>
+                        <li>
+                            <a id="menu-duvidas-mobile" href="#">Dúvidas Frequentes</a>
+                        </li>
+                        <li>
+                            <a class="borda" href="https://web.whatsapp.com/send?phone=55995123739"><b>Fale Conosco</b></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>    
     </header>
     <main>
@@ -370,7 +401,7 @@
                 </div>  
             </div>           
         </section>
-        <section class="depoimentos-mobile">
+        <section id="section-depoimentos-mobile" class="depoimentos-mobile">
             <div class="description">
                 <div class="flex-container">
                     <div class="tittle">

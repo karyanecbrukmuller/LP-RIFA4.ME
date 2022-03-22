@@ -24,6 +24,10 @@ html, body{
     z-index: 1000;
 }
 
+header .logo-menu .flex-container .flex-item.left a img{
+    display: block;
+}
+
 header .logo-menu{
     width: 100%;
     position: fixed;
@@ -38,31 +42,33 @@ header .logo-menu .flex-container{
     justify-content: space-around;
 }
 
-header .logo-menu .flex-container .mobile-menu{
+header .logo-menu .mobile-menu-dropdown{
+    display: none;
+}
+
+header .logo-menu .flex-container .btn-mobile-menu{
     display: none;
     cursor: pointer;
     margin-top: 15px;
 }
 
-header .logo-menu .flex-container .mobile-menu div{
+header .logo-menu .flex-container .btn-mobile-menu div{
     width: 32px;
     height: 1.5px;
     margin: 8px;
     background-color: #bf0811;
 }
 
-header .logo-menu .flex-container .mobile-menu .line-2{
+header .logo-menu .flex-container .btn-mobile-menu .line-2{
     height: 2.5px;
 }
 
-header .logo-menu .flex-container .mobile-menu .line-3{
+header .logo-menu .flex-container .btn-mobile-menu .line-3{
     height: 3px;
 }
 
-
-
 header .logo-menu .flex-container .flex-item.left{
-    width: 35%;
+    width: 20%;
     padding: 0px 0px 0px 160px;
     margin-top: 15px;
 }
@@ -73,23 +79,24 @@ a{
 
 header .logo-menu .flex-container .flex-item.left a img{
     width: 157px;
+    display: blo;
 }
 
 header .logo-menu .flex-container .flex-item.right{
-    text-align: left;
 	margin: 15px 0px;
-	width: 65%;   
+	width: 80%;   
     font-size: 14px;
+    padding-right: 155px;
 }
 
 header .logo-menu .flex-container .flex-item.right nav{
     background: none;
     box-shadow: none;
     line-height: 45px;
-    margin-left: 150px;
 }
 
 header .logo-menu .flex-container .flex-item.right .links{
+    float: right;
     display: flex;
     gap: 38px;
     font-family: 'Montserrat', sans-serif;
